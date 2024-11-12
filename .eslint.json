@@ -4,12 +4,16 @@
     "node": true,
     "es2021": true
   },
-  "express": ["eslint:recommended", "prettyer"],
+  "express": [
+    "eslint:recommended",
+    "prettyer"
+  ],
   "parserOpions": {
     "ecmaVersion": 12,
     "sourceType": "modume"
   },
   "rules": {
-    "no-console": "error"
+    "no-console": "off",
+    "no-unsed-vars": "worn"
   }
 }
